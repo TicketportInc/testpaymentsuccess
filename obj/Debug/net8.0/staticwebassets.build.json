@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6qZpLTgcScMkvN4yZuQzQWkkq2FPoR++6Ky1XjqKWew=",
+  "Source": "testpaymentsuccess",
+  "BasePath": "_content/testpaymentsuccess",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
