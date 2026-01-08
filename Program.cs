@@ -174,22 +174,8 @@ app.MapMethods("/mastercard/redirect", new[] { "POST", "GET" }, async (HttpReque
       <div class="container">
         <div class="icon"></div>
         <h1>Your purchase has been successful.</h1>
-        <p>Click below to close this page.</p>
-        <button class="close-button" onclick="window.close()">Close Page</button>
-      </div>
-
-      <script>
-        // Fallback if window.close() doesn't work (some browsers restrict it)
-        document.querySelector('.close-button').addEventListener('click', function() {
-          setTimeout(function() {
-            // If still here after 100ms, the window didn't close
-            // Could show a message or redirect
-            if (document.hasFocus()) {
-              // Window is still open, could add fallback behavior here if needed
-            }
-          }, 100);
-        });
-      </script>
+        <p>Click the X in the top right corner to close this page</p>        
+      </div>     
     </body>
     </html>
     """;
